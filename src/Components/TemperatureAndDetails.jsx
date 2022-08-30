@@ -1,5 +1,5 @@
 import React from "react";
-import {formatToLocalTime, iconUrlFromCode } from "../services/weatherService";
+import { formatToLocalTime, iconUrlFromCode } from "../services/weatherService";
 import {
   UilArrowUp,
   UilArrowDown,
@@ -59,7 +59,7 @@ const TemperatureAndDetails = ({
       </div>
 
       <div className="flex flex-row flex-wrap items-center justify-center space-x-2 text-white text-sm py-3">
-        <div className="flex flex-row flex-wrap items-center justify-center space-x-2 py-2">
+        <div className="flex flex-row items-center justify-center space-x-2 py-2">
           <UilSun />
           <p className="font-light">
             Rise:{" "}
@@ -69,7 +69,7 @@ const TemperatureAndDetails = ({
           </p>
           <p className="font-light">|</p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-center space-x-2 py-2">
+        <div className="flex flex-row items-center justify-center space-x-2 py-2">
           <UilSunset />
           <p className="font-light">
             Set:{" "}
@@ -79,7 +79,7 @@ const TemperatureAndDetails = ({
           </p>
           <p className="font-light">|</p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-center space-x-2 py-2">
+        <div className="flex flex-row items-center justify-center space-x-2 py-2">
           <UilArrowUp />
           <p className="font-light">
             High:{" "}
@@ -87,7 +87,7 @@ const TemperatureAndDetails = ({
           </p>
           <p className="font-light">|</p>
         </div>
-        <div className="flex flex-row flex-wrap items-center justify-center space-x-2 py-2">
+        <div className="flex flex-row items-center justify-center space-x-2 py-2">
           <UilArrowDown />
           <p className="font-light">
             Low:{" "}
