@@ -41,7 +41,7 @@ const Inputs = ({ setQuery, units, setUnits }) => {
           onChange={(e) => setCity(e.currentTarget.value)}
           type="text"
           placeholder="enter city name"
-          className="text-xl font-light p-2 w-1/2 shadow-xl focus:outline-none capitalize placeholder:lowercase rounded-md"
+          className="text-xl font-light p-2 w-4/5 shadow-xl focus:outline-none capitalize placeholder:lowercase rounded-md"
         />
         <div className="flex flex-row items-center justify-center space-x-1 py-2">
           <UilSearch

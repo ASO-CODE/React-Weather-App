@@ -8,7 +8,7 @@ const Forecast = ({ title, items }) => {
       </div>
       <hr className="my-2" />
 
-      <div className="grid grid-cols-2 lg:grid-cols-5 items-center justify-between text-white">
+      <div className="grid grid-cols-2 gap-y-5 lg:grid-cols-5 items-center justify-between text-white">
         {items.map((item, index) => (
           <div
             key={index}
