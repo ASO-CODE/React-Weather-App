@@ -8,9 +8,12 @@ const Forecast = ({ title, items }) => {
       </div>
       <hr className="my-2" />
 
-      <div className="flex flex-row flex-wrap items-center justify-between text-white">
+      <div className="grid grid-cols-2 lg:grid-cols-5 items-center justify-between text-white">
         {items.map((item, index) => (
-          <div key={index} className="flex flex-col items-center justify-center">
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center"
+          >
             <p className="font-light text-sm">{item.title}</p>
             <img
               src={iconUrlFromCode(item.icon)}
